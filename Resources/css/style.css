@@ -25,7 +25,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 4rem;
+  bottom: 3rem;
   z-index: 10;
 }
 
@@ -320,8 +320,15 @@ body {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+}
+
 /* @media (min-width: 62em) {
   .blog-heading {
     margin-top: 7rem;
-  }
-} */
+  } 
+  
+}  */
